@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.boxadactle.boxlib",
+    "module": "BoxLib-fabric",
+    "version": "5.3.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.86.1+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "BoxLib-fabric-5.3.5.jar",
+          "url": "BoxLib-fabric-5.3.5.jar",
+          "size": 197159,
+          "sha512": "9b003c8b32d1e245341af3c9d685ef98d75c36c144ed92633265bb2a910d58e7fd875e96b2c1ad0fae8b45c4d7d90c5711d65696c506004b6d4474d186295ee6",
+          "sha256": "5e8f44ae874a667bdf9ef9d8a537d6e9a88bc04550803d184b3d709dad088637",
+          "sha1": "e89026897719eb6835d8d140f226905999446e0f",
+          "md5": "cfe6ec17afc27d7f33e634458599b496"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.86.1+1.20.1"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.21"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.2.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "BoxLib-fabric-5.3.5.jar",
+          "url": "BoxLib-fabric-5.3.5.jar",
+          "size": 197159,
+          "sha512": "9b003c8b32d1e245341af3c9d685ef98d75c36c144ed92633265bb2a910d58e7fd875e96b2c1ad0fae8b45c4d7d90c5711d65696c506004b6d4474d186295ee6",
+          "sha256": "5e8f44ae874a667bdf9ef9d8a537d6e9a88bc04550803d184b3d709dad088637",
+          "sha1": "e89026897719eb6835d8d140f226905999446e0f",
+          "md5": "cfe6ec17afc27d7f33e634458599b496"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "BoxLib-fabric-5.3.5-sources.jar",
+          "url": "BoxLib-fabric-5.3.5-sources.jar",
+          "size": 79551,
+          "sha512": "fdf3fd19309df373ba55fcfa1b01c75ea3d23d2d42f599cc8b5f0b612fdcab7696d7b67dec6d6667a0756fe949fd5f512b35cab3b37f23b75f7f31b49b5a1ffe",
+          "sha256": "09f6b13dc30a48dbb52f3ba4972b43d9830ab4952da114e1264a043fd0afcea3",
+          "sha1": "a26f751547109766d2324349d73a7b891e64b33c",
+          "md5": "6a9d4fbba4c47491e8f6c79ece6297c1"
+        }
+      ]
+    }
+  ]
+}

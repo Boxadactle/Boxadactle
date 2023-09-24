@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.boxadactle.boxlib",
+    "module": "BoxLib-forge",
+    "version": "5.4.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "BoxLib-forge-5.4.1.jar",
+          "url": "BoxLib-forge-5.4.1.jar",
+          "size": 210731,
+          "sha512": "6987ce36f1b47453a3618dfa89c5178e5885958db3b809fcaadfdd0ee124203c02df1fe7c4a66856ac3946a361d6adb7abbf978a73d237fe6de78ab13e1c31fa",
+          "sha256": "d56000f84d05e79eed26d6113d495b824abdb94c2d8b097fbb216e1fec742633",
+          "sha1": "d34196c3f4c7f43c82341fcd3097176247b2dcbc",
+          "md5": "48c191d12b06a340613f31abade866d3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "BoxLib-forge-5.4.1.jar",
+          "url": "BoxLib-forge-5.4.1.jar",
+          "size": 210731,
+          "sha512": "6987ce36f1b47453a3618dfa89c5178e5885958db3b809fcaadfdd0ee124203c02df1fe7c4a66856ac3946a361d6adb7abbf978a73d237fe6de78ab13e1c31fa",
+          "sha256": "d56000f84d05e79eed26d6113d495b824abdb94c2d8b097fbb216e1fec742633",
+          "sha1": "d34196c3f4c7f43c82341fcd3097176247b2dcbc",
+          "md5": "48c191d12b06a340613f31abade866d3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "BoxLib-forge-5.4.1-sources.jar",
+          "url": "BoxLib-forge-5.4.1-sources.jar",
+          "size": 82325,
+          "sha512": "c7ce83930db29d9b4cc70fdc98efc04f8beb67c88d954714ef0cec0f1d303f8cd96825d2cf672a4a29e77545aaaeb43cdefedf114561b3f3b415e14668d7e9fd",
+          "sha256": "cec47473e87cca4ff05b54438467b13a8efc06dfa7f13ffcae61b8ec3ab458c4",
+          "sha1": "13d0d9450ef49f0093c8f4b7a9ad787b7fa353ef",
+          "md5": "e3e8c938bc1b054caa9a5c4616bd8377"
+        }
+      ]
+    }
+  ]
+}

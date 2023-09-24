@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.boxadactle.boxlib",
+    "module": "BoxLib",
+    "version": "5.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "BoxLib-5.4.0.jar",
+          "url": "BoxLib-5.4.0.jar",
+          "size": 155034,
+          "sha512": "a57078c2827520039573caa145248b41dfedac813f84c76f59733d8edad9673055c59c7cc30e241eb09c4c10833a3848ec3cb8c4c989ba6a86ec3eea7ded2293",
+          "sha256": "4311dedb246ef10924b0941485425d4a874b73fce8554dbb13425032f120e885",
+          "sha1": "54cf116666efd729862abd47fcdbb25cce5c39dd",
+          "md5": "de3422e78e770d38e1e829b3a3e0d2b7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "BoxLib-5.4.0.jar",
+          "url": "BoxLib-5.4.0.jar",
+          "size": 155034,
+          "sha512": "a57078c2827520039573caa145248b41dfedac813f84c76f59733d8edad9673055c59c7cc30e241eb09c4c10833a3848ec3cb8c4c989ba6a86ec3eea7ded2293",
+          "sha256": "4311dedb246ef10924b0941485425d4a874b73fce8554dbb13425032f120e885",
+          "sha1": "54cf116666efd729862abd47fcdbb25cce5c39dd",
+          "md5": "de3422e78e770d38e1e829b3a3e0d2b7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "BoxLib-5.4.0-sources.jar",
+          "url": "BoxLib-5.4.0-sources.jar",
+          "size": 41371,
+          "sha512": "39e0c65a370d65d64c14d7ccc5eef7ba66abcefac4a24a6564a36ac8b21471bf8c9ba70aaf8e1e69df1205846e86a799c39ca3cf4b54d25342dc5d5c9b7e17d2",
+          "sha256": "c1d66f840c714b8d25363311512f58adeae89f6a26a5d8fd9b43b9c67e8d82f5",
+          "sha1": "c8f95d31a7473a1b7d5da49da5f2a424742fb044",
+          "md5": "da14e9660d8c7d1712e24b2ff776c58d"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "BoxLib-5.4.0-shadow.jar",
+          "url": "BoxLib-5.4.0-shadow.jar",
+          "size": 149788,
+          "sha512": "f791f78216835257c9a50ec6b599e2c353ecfdf5c300de139b436f40443103f379a93405791266a0201b3388307b723ed8532edcf15dfa4f1468c5834ea46308",
+          "sha256": "f58a6146d613f67a5d80638509367150d8e1a9160fd2c20e71e39dbce441142b",
+          "sha1": "b1ce11c1fc12265a283401178192c2d43a961cb7",
+          "md5": "32d90c2df4c70f0bf009bb38bcad4b33"
+        }
+      ]
+    }
+  ]
+}
