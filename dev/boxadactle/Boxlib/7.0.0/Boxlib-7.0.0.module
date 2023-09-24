@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.boxadactle",
+    "module": "Boxlib",
+    "version": "7.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "Boxlib-7.0.0.jar",
+          "url": "Boxlib-7.0.0.jar",
+          "size": 154238,
+          "sha512": "cadeb9dccc7766828344fb878d5ab19186534f21c8c455aea274fa71f512e06be4504c1356c2d68c48d47cdbac213f5ba3315e9427203b633a5918fa788b511f",
+          "sha256": "6aadb81ecc1a449b38ecde9e98f62ab135ace809df069bcc2c1360d0e80524e3",
+          "sha1": "427fac27e47d445f01193b501ca4bd0477c23b92",
+          "md5": "ea6b791fd262ebcad4eecc51f9a6dff9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Boxlib-7.0.0.jar",
+          "url": "Boxlib-7.0.0.jar",
+          "size": 154238,
+          "sha512": "cadeb9dccc7766828344fb878d5ab19186534f21c8c455aea274fa71f512e06be4504c1356c2d68c48d47cdbac213f5ba3315e9427203b633a5918fa788b511f",
+          "sha256": "6aadb81ecc1a449b38ecde9e98f62ab135ace809df069bcc2c1360d0e80524e3",
+          "sha1": "427fac27e47d445f01193b501ca4bd0477c23b92",
+          "md5": "ea6b791fd262ebcad4eecc51f9a6dff9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "Boxlib-7.0.0-sources.jar",
+          "url": "Boxlib-7.0.0-sources.jar",
+          "size": 96600,
+          "sha512": "862d73e8bf70efd5d155a8804aeff213a315ad818db61efb69ec3981c473a74d9f8d5c47ba3d0bc6b5808d583bdcd4abe2b0b0b6b8d7d1b7ab075eb66573d2af",
+          "sha256": "d82db1ad31ae7fcfd85d4c2d8c9350825d52abec2f2758cf395dc2710989894a",
+          "sha1": "8794cef83402a680bbb0d274475469961d847e86",
+          "md5": "f8f5ed0602f6fd182dbc47f69e6c6a35"
+        }
+      ]
+    }
+  ]
+}
