@@ -16,7 +16,7 @@ jobs:
       - name: Generate Directory Listings
         uses: Boxadactle/github-pages-directory-listing@main
         with:
-          FOLDER: maven
+          FOLDER: repository
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
